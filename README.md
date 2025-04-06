@@ -1,7 +1,7 @@
 # 🌆 未來城市 Future City Website
 
 > 一個展示未來科技與城市願景的網站，體驗未來城市的美好生活。
-
+>
 > A website that showcases future technology and urban vision to experience the wonderful life of the future city.
 
 [![HTML](https://img.shields.io/badge/HTML-5-orange.svg)]()
@@ -50,59 +50,60 @@ cd future-city
 直接打開 index.html 即可在瀏覽器中查看效果。
 Simply open index.html in your browser.
 
-🗺️ 網站流程圖 | Site Flowchart
+---
 
-🧩 功能介紹 | Features
-💡 首頁動畫：首次進入會顯示 loading 畫面，增強體驗。
+## 🧩 功能介紹 | Features
+
+💡 首頁動畫：首次進入會顯示 loading 畫面，增強體驗。<br>
 Home page animation: The loading screen will be displayed when entering for the first time to enhance the experience.
 
-🏙️ 主題設計：未來感城市設計與配色。
+🏙️ 主題設計：未來感城市設計與配色。<br>
 Theme design: futuristic urban design and color matching.
 
-📱 RWD 響應式設計：適配手機、平板與桌面端。
+📱 RWD 響應式設計：適配手機、平板與桌面端。<br>
 RWD responsive design: suitable for mobile phones, tablets and desktops.
 
-📰 最新消息區塊：展示城市的最新消息。
+📰 最新消息區塊：展示城市的最新消息。<br>
 Latest News Block: Displays the latest news from the city.
 
-📩 聯絡我們表單：方便用戶查詢。
+📩 聯絡我們表單：方便用戶查詢。<br>
 Contact Us Form: Convenient for users to inquire.
 
-🔒 登入頁面：提供會員登入入口。
+🔒 登入頁面：提供會員登入入口。<br>
 Login page: Provides member login entrance.
 
 ---
 
-### ❓ 常見問題 / 故障排除 | FAQ / Troubleshooting
+## ❓ 常見問題 / 故障排除 | FAQ / Troubleshooting
 
-Loading 畫面消失太快？
-我們使用了 Math.max 方法，確保至少顯示 1 秒。
-調整時間可以修改 RWD.js / loading.js 的定時器。
-Loading screen disappears too quickly?
-We used the Math.max method to ensure it is displayed for at least 1 second.
-Adjusting the time can modify the timer in RWD.js / loading.js.
+Loading 畫面消失太快?<br>
+我們使用了 Math.max 方法，確保至少顯示 1 秒。<br>
+調整時間可以修改 RWD.js / loading.js 的定時器。<br>
+Loading screen disappears too quickly?<br>
+We used the Math.max method to ensure it is displayed for at least 1 second.<br>
+Adjusting the time can modify the timer in RWD.js / loading.js.<br>
 
 
-外部資源無法載入？
-請確保您的網路正常，或將 Google Fonts 等資源改為本地版本。
-External resources cannot be loaded?
-Please make sure your network is normal, or change resources such as Google Fonts to local versions.
-
----
-
-### 🔗 相關資源 | Related Links
-Google Fonts
-Font awesome
-MDN Web Docs
+外部資源無法載入?<br>
+請確保您的網路正常，或將 Google Fonts 等資源改為本地版本。<br>
+External resources cannot be loaded?<br>
+Please make sure your network is normal, or change resources such as Google Fonts to local versions.<br>
 
 ---
 
-### ✨ 預覽 | Live Demo
+## 🔗 相關資源 | Related Links
+Google Fonts<br>
+Font awesome<br>
+MDN Web Docs<br>
+
+---
+
+## ✨ 預覽 | Live Demo
 👉 https://kusogame68.github.io/FutureCity-RWD/
 
 ---
 
-### 🙌 特別感謝 | Special Thanks
-感謝所有給予建議與測試的朋友，讓這個項目更加完整！
+## 🙌 特別感謝 | Special Thanks
+感謝所有給予建議與測試的朋友，讓這個項目更加完整！<br>
 Thanks to all friends who contributed ideas and testing to make this project better!
 
