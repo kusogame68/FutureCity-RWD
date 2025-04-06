@@ -89,10 +89,12 @@ function prevCarousel(){
         imgIndex = 5;
     imgIndex = (imgIndex - 1) % carouselBtns.length;
     updateCarousel();
+    reStart();
 };
 function nextCarousel(){
     imgIndex = (imgIndex + 1) % carouselBtns.length;
     updateCarousel();
+    reStart();
 };
 function updateCarousel(){
     imgs.forEach((img, index) => {
@@ -112,7 +114,9 @@ function updateCarousel(){
     })
 };
 function reStart(){
-    clearInterval(interval);
+    if(interval){
+        clearInterval(interval);
+    };
     __init__();
 }
 function goToImage(index){
@@ -128,6 +132,39 @@ imgs.forEach((img, index) => {
 carouselBtns.forEach((btn, index) => {
     btn.addEventListener("click",() => goToImage(index));
 });
+
+/* === MOBILE CAROUSEL === */
+let startX = 0;
+let endX = 0;
+let moveX = 0;
+
+carousel.addEventListener("touchstart",(e) => {
+    clearInterval(interval);
+    startX = e.touches[0].clientX;
+});
+carousel.addEventListener("touchend",(e) => {
+    endX = e.changedTouches[0].clientX;
+    if (startX - endX > 50) {
+        carousel.style.transform = `translateX(0px)`;
+        nextCarousel();
+    } else if (endX - startX > 50) {
+        carousel.style.transform = `translateX(0px)`;
+        prevCarousel();
+    }else{
+        carousel.style.transform = `translateX(0px)`;
+        reStart();
+    }
+});
+carousel.addEventListener("click",() => {
+    reStart();
+})
+carousel.addEventListener("touchmove",(e) => {
+    clearInterval(interval);
+    moveX = e.touches[0].clientX;
+    carousel.style.transform = `translateX(${moveX - startX}px)`;
+});
+
+
 
 /* === GOTOP === */
 let gotop = document.createElement("a");
