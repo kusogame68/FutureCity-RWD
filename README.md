@@ -1,6 +1,7 @@
 # 🌆 未來城市 Future City Website
 
 > 一個展示未來科技與城市願景的網站，體驗未來城市的美好生活。
+
 > A website that showcases future technology and urban vision to experience the wonderful life of the future city.
 
 [![HTML](https://img.shields.io/badge/HTML-5-orange.svg)]()
@@ -40,10 +41,13 @@ A multi-page website themed around "Future City," showcasing futuristic design a
 ```bash
 git clone https://github.com/kusogame68/future-city.git
 cd future-city
+```
+
+---
 
 ### 2. 開啟專案 | Open Project
-直接打開 index.html 即可在瀏覽器中查看效果。
 
+直接打開 index.html 即可在瀏覽器中查看效果。
 Simply open index.html in your browser.
 
 🗺️ 網站流程圖 | Site Flowchart
@@ -67,7 +71,10 @@ Contact Us Form: Convenient for users to inquire.
 🔒 登入頁面：提供會員登入入口。
 Login page: Provides member login entrance.
 
+---
+
 ### ❓ 常見問題 / 故障排除 | FAQ / Troubleshooting
+
 Loading 畫面消失太快？
 我們使用了 Math.max 方法，確保至少顯示 1 秒。
 調整時間可以修改 RWD.js / loading.js 的定時器。
@@ -81,13 +88,19 @@ Adjusting the time can modify the timer in RWD.js / loading.js.
 External resources cannot be loaded?
 Please make sure your network is normal, or change resources such as Google Fonts to local versions.
 
+---
+
 ### 🔗 相關資源 | Related Links
 Google Fonts
 Font awesome
 MDN Web Docs
 
+---
+
 ### ✨ 預覽 | Live Demo
 👉 https://kusogame68.github.io/FutureCity-RWD/
+
+---
 
 ### 🙌 特別感謝 | Special Thanks
 感謝所有給予建議與測試的朋友，讓這個項目更加完整！
