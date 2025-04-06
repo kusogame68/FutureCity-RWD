@@ -1,0 +1,231 @@
+/* === SRTTING === */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primaryLight--: #62c7e3;
+    --primary--: #4eafc9;
+
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+/* === BG SETTING=== */
+img{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-position: 50% 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    vertical-align: bottom;
+}
+
+/* === MAIN === */
+.card{
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    background-color: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: .75rem;
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    color: white;
+}
+.card .title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+}
+.card .input-group{
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.card .input-group .form-control{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    background-color: transparent;
+    line-height: 1.25;
+    padding: 1rem 0;
+    color: white;
+    height: 48px;
+    outline: none;
+    appearance: none;
+}
+.card .input-group .form-control::placeholder{
+    color: transparent;
+}
+.card .input-group .label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 1rem 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transform-origin: 0 0;
+    transition: transform .1s ease-in-out;
+}
+.card .input-group .form-control:focus ~ label,
+.card .input-group .form-control:not(:placeholder-shown) ~ label{
+    color: rgba(255, 255, 255, .6);
+    transform: scale(.85) translateY(-.8em);
+}
+.card .input-group .form-control:not(:placeholder-shown),
+.card .input-group .form-control:focus{
+    padding-top: 1.625rem;
+    padding-bottom: .625rem;
+}
+
+/* === UTILITIES === */
+.card .d-flex{
+    display: flex;
+}
+.card .justify-content-center{
+    justify-content: center;
+}
+
+.card .justify-content-between{
+    justify-content: space-between;
+}
+.card .d-flex .form-check .form-check-input{
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-top: .25rem;
+    background-color: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+.card .d-flex .form-check .form-check-input:checked{
+    background-image: url("../svg/check.svg");
+    background-position: center center;
+    background-color: var(--primary--);
+}
+.card .d-flex a{
+    color: var(--primary--);
+}
+.card .d-flex a:hover,
+.card .d-flex a:focus{
+    text-decoration: underline;
+    color: var(--primaryLight--);
+}
+.card #result{
+    margin-top: 0.5rem;
+    text-align: center;
+    color: orangered;
+    opacity: 0.5;
+    transition: all .6s;
+}
+.card .btn{
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid rgba(255, 255, 255, .6);
+    border-radius: .25rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all .2s;
+}
+.card .btn:nth-of-type(2){
+    display: none;
+}
+.card .btn:hover,
+.card .btn:focus,
+.card .btn:active,
+.card .btn.active{
+    background-color: var(--primary--);
+    border-color: var(--primary--);
+}
+.card .margin-top{
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 540px) {
+    /* === GRID === */
+    .grid-sm-1{
+        width: calc(100% / 12 * 1);
+    }
+    .grid-sm-2{
+        width: calc(100% / 12 * 2);
+    }
+    .grid-sm-3{
+        width: calc(100% / 12 * 3);
+    }
+    .grid-sm-4{
+        width: calc(100% / 12 * 4);
+    }
+    .grid-sm-5{
+        width: calc(100% / 12 * 5);
+    }
+    .grid-sm-6{
+        width: calc(100% / 12 * 6);
+    }
+    .grid-sm-7{
+        width: calc(100% / 12 * 7);
+    }
+    .grid-sm-8{
+        width: calc(100% / 12 * 8);
+    }
+    .grid-sm-9{
+        width: calc(100% / 12 * 9);
+    }
+    .grid-sm-10{
+        width: calc(100% / 12 * 10);
+    }
+    .grid-sm-11{
+        width: calc(100% / 12 * 11);
+    }
+    .grid-sm-12{
+        width: calc(100% / 12 * 12);
+    }
+    /* === MAIN === */
+    .card .title{
+        font-size: 1.5rem;
+    }
+
+    /* === UTILITIES === */
+    .card .d-flex{
+        display: inline-block;
+    }
+    .card .btn{
+        font-size: 1rem;
+        height: 2.5rem;
+    }
+    .card .d-flex .form-check .form-check-input{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    .card .d-flex a {
+        line-height: 2.0rem;
+        display: inline-block;
+        margin-top: 0.5rem;
+        margin-bottom: -0.5rem;
+    }
+}
