@@ -39,8 +39,8 @@ A multi-page website themed around "Future City," showcasing futuristic design a
 ### 1. 下載專案 | Download Project
 
 ```bash
-git clone https://github.com/kusogame68/future-city.git
-cd future-city
+git clone https://github.com/kusogame68/FutureCity-RWD.git
+cd FutureCity-RWD
 ```
 
 ---
@@ -77,11 +77,11 @@ Login page : Provides member login entrance.
 ## ❓ 常見問題 / 故障排除 | FAQ / Troubleshooting
 
 1. Loading 畫面消失太快?<br>
-我們使用了 Math.max 方法，確保至少顯示 1 秒。<br>
+使用了 Math.max 方法，確保至少顯示 1 秒。<br>
 調整時間可以修改 RWD.js / loading.js 的定時器。<br>
 
 Loading screen disappears too quickly?<br>
-We used the Math.max method to ensure it is displayed for at least 1 second.<br>
+Used the Math.max method to ensure it is displayed for at least 1 second.<br>
 Adjusting the time can modify the timer in RWD.js / loading.js.<br>
 
 
