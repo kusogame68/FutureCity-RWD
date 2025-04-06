@@ -36,11 +36,13 @@ mobile.addEventListener("click",(e) => {
 });
 for (const lis of lilist) {
     lis.addEventListener("click",(e) => {
-        menu.style.display = "none";
-        mobile.children[0].style.transform = "rotate(0deg)";
-        mobile.children[1].style.display = "inline";
-        mobile.children[2].style.transform = "rotate(0deg)";
-        menudisplay = !menudisplay;
+        if (window.innerWidth < 768) {
+            menu.style.display = "none";
+            mobile.children[0].style.transform = "rotate(0deg)";
+            mobile.children[1].style.display = "inline";
+            mobile.children[2].style.transform = "rotate(0deg)";
+            menudisplay = !menudisplay;
+        }
     })    
 };
 
@@ -181,7 +183,6 @@ window.addEventListener("load",() => {
 
 /* === 跨頁面處理登入問題 === */ 
 let homelogin = document.getElementById("homeLogin");
-console.log(homelogin.style)
 
 if(localStorage.getItem("isLoggedIn") === "true"){
     homelogin.textContent = "登出";
