@@ -2,7 +2,6 @@
 
 > 一個展示未來科技與城市願景的網站，體驗未來城市的美好生活。
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![HTML](https://img.shields.io/badge/HTML-5-orange.svg)]()
 [![CSS](https://img.shields.io/badge/CSS-3-blue.svg)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)]()
