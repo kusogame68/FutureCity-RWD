@@ -1,3 +1,4 @@
+/* === Rainy.js SETTING === */
 const img = document.querySelector(".img");
 
 function initRainEffect() {

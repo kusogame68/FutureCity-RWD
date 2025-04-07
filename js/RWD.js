@@ -164,8 +164,6 @@ carousel.addEventListener("touchmove",(e) => {
     carousel.style.transform = `translateX(${moveX - startX}px)`;
 });
 
-
-
 /* === GOTOP === */
 let gotop = document.createElement("a");
 gotop.setAttribute("id","gotop");
