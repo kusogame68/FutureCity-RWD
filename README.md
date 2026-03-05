@@ -1,4 +1,4 @@
-# 🌆 未來城市 Future City Website
+# 未來城市 Future City Website
 
 > 一個展示未來科技與城市願景的網站，體驗未來城市的美好生活。
 >
@@ -10,7 +10,7 @@
 
 ![封面圖](./image/future_city2.jpg)
 
-## 📖 專案簡介 | Project Overview
+## 專案簡介 | Project Overview
 
 這是一個以「未來城市」為主題設計的多頁面網站，透過現代化設計語言，結合動畫效果，呈現科技感十足的介面。使用者可以瀏覽城市介紹、產品內容、最新消息，還可以透過登入頁面進入會員專區。
 
@@ -18,7 +18,7 @@ A multi-page website themed around "Future City," showcasing futuristic design a
 
 ---
 
-## 🛠️ 技術棧 | Tech Stack
+## 技術棧 | Tech Stack
 
 - HTML5
 - CSS3<br>
@@ -34,7 +34,7 @@ A multi-page website themed around "Future City," showcasing futuristic design a
 
 ---
 
-## 🚀 安裝與使用 | Installation & Usage
+## 安裝與使用 | Installation & Usage
 
 ### 1. 下載專案 | Download Project
 
@@ -52,29 +52,29 @@ Simply open index.html in your browser.
 
 ---
 
-## 🧩 功能介紹 | Features
+## 功能介紹 | Features
 
-💡 首頁動畫：首次進入會顯示 loading 畫面，增強體驗。<br>
+首頁動畫：首次進入會顯示 loading 畫面，增強體驗。<br>
 Home page animation : The loading screen will be displayed when entering for the first time to enhance the experience.
 
-🏙️ 主題設計：未來感城市設計與配色。<br>
+主題設計：未來感城市設計與配色。<br>
 Theme design : futuristic urban design and color matching.
 
-📱 RWD 響應式設計：適配手機、平板與桌面端。<br>
+RWD 響應式設計：適配手機、平板與桌面端。<br>
 RWD responsive design : suitable for mobile phones, tablets and desktops.
 
-📰 最新消息區塊：展示城市的最新消息。<br>
+最新消息區塊：展示城市的最新消息。<br>
 Latest News Block : Displays the latest news from the city.
 
-📩 聯絡我們表單：方便用戶查詢。<br>
+聯絡我們表單：方便用戶查詢。<br>
 Contact Us Form : Convenient for users to inquire.
 
-🔒 登入頁面：提供會員登入入口。<br>
+登入頁面：提供會員登入入口。<br>
 Login page : Provides member login entrance.
 
 ---
 
-## ❓ 常見問題 / 故障排除 | FAQ / Troubleshooting
+## 常見問題 / 故障排除 | FAQ / Troubleshooting
 
 1. Loading 畫面消失太快?<br>
 使用了 Math.max 方法，確保至少顯示 1 秒。<br>
@@ -93,19 +93,19 @@ Please make sure your network is normal, or change resources such as Google Font
 
 ---
 
-## 🔗 相關資源 | Related Links
+## 相關資源 | Related Links
 Google Fonts<br>
 Font awesome<br>
 MDN Web Docs<br>
 
 ---
 
-## ✨ 預覽 | Live Demo
-👉 https://kusogame68.github.io/FutureCity-RWD/
+## 預覽 | Live Demo
+https://kusogame68.github.io/FutureCity-RWD/
 
 ---
 
-## 🙌 特別感謝 | Special Thanks
+## 特別感謝 | Special Thanks
 感謝所有給予建議與測試的朋友，讓這個項目更加完整！<br>
 Thanks to all friends who contributed ideas and testing to make this project better!
 
