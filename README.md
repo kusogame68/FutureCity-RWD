@@ -12,9 +12,9 @@
 
 ## 專案簡介 | Project Overview
 
-這是一個以「未來城市」為主題設計的多頁面網站，透過現代化設計語言，結合動畫效果，呈現科技感十足的介面。使用者可以瀏覽城市介紹、產品內容、最新消息，還可以透過登入頁面進入會員專區。
+採用單頁式架構（SPA）設計，以「未來城市」為視覺主軸並融入豐富動畫效果。整合了前導展示、城市與產品特色介紹、即時資訊區塊，以及完整的使用者登入介面流程。
 
-A multi-page website themed around "Future City," showcasing futuristic design and animations. Users can explore city features, product highlights, latest news, and log in for exclusive access.
+Designed with a Single Page Application (SPA) architecture, using "Future City" as the visual theme and incorporating rich animation effects. It integrates an intro showcase, city and product feature introductions, a real-time info section, and a complete user login interface flow.
 
 ---
 
@@ -22,12 +22,12 @@ A multi-page website themed around "Future City," showcasing futuristic design a
 
 - HTML5
 - CSS3<br>
-    (RWD, <br>
-    動畫效果 Animation effects, <br>
-    日夜模式 Day and night mode，)
+  (RWD, <br>
+  動畫效果 Animation effects, <br>
+  日夜模式 Day and night mode，)
 - JavaScript <br>
-    (動態互動 Dynamic interaction, <br>
-    加載畫面 Loading screen)
+  (動態互動 Dynamic interaction, <br>
+  加載畫面 Loading screen)
 - Rainy.js
 - Google Fonts
 - Font awesome
@@ -77,16 +77,15 @@ Login page : Provides member login entrance.
 ## 常見問題 / 故障排除 | FAQ / Troubleshooting
 
 1. Loading 畫面消失太快?<br>
-使用了 Math.max 方法，確保至少顯示 1 秒。<br>
-調整時間可以修改 RWD.js / loading.js 的定時器。<br>
+   使用了 Math.max 方法，確保至少顯示 1 秒。<br>
+   調整時間可以修改 RWD.js / loading.js 的定時器。<br>
 
 Loading screen disappears too quickly?<br>
 Used the Math.max method to ensure it is displayed for at least 1 second.<br>
 Adjusting the time can modify the timer in RWD.js / loading.js.<br>
 
-
 2. 外部資源無法載入?<br>
-請確保您的網路正常，或將 Google Fonts 等資源改為本地版本。<br>
+   請確保您的網路正常，或將 Google Fonts 等資源改為本地版本。<br>
 
 External resources cannot be loaded?<br>
 Please make sure your network is normal, or change resources such as Google Fonts to local versions.<br>
@@ -94,6 +93,7 @@ Please make sure your network is normal, or change resources such as Google Font
 ---
 
 ## 相關資源 | Related Links
+
 Google Fonts<br>
 Font awesome<br>
 MDN Web Docs<br>
@@ -101,11 +101,12 @@ MDN Web Docs<br>
 ---
 
 ## 預覽 | Live Demo
+
 https://kusogame68.github.io/FutureCity-RWD/
 
 ---
 
 ## 特別感謝 | Special Thanks
+
 感謝所有給予建議與測試的朋友，讓這個項目更加完整！<br>
 Thanks to all friends who contributed ideas and testing to make this project better!
-
